@@ -1,0 +1,111 @@
+There is the description of the columns of the table: customers. Please go through the description of each column to further understand in detail about the use of each column: {
+"Column_name": CUSTOMER_ID
+"Description": Unique identifier for each individual customer
+"Data_type": Integer
+}
+
+{
+"Column_name": FULL_NAME
+"Description": Complete first name and last name of the customer
+"Data_type": Varchar
+}
+
+{
+"Column_name": EMAIL_ADDRESS
+"Description": The primary email address of the customer
+"Data_type": Varchar
+}
+There is the description of the columns of the table: order_items. Please go through the description of each column to further understand in detail about the use of each column: {
+"Column_name": ORDER_ID
+"Description": Unique identifier for the order
+"Data_type": Integer
+}
+
+{
+"Column_name": LINE_ITEM_ID
+"Description": Unique identifier for each item in the order
+"Data_type": Integer
+}
+
+{
+"Column_name": PRODUCT_ID
+"Description": Unique identifier for the product
+"Data_type": Integer
+}
+
+{
+"Column_name": QUANTITY
+"Description": Number of units of the product ordered
+"Data_type": Integer
+}
+There is the description of the columns of the table: orders. Please go through the description of each column to further understand in detail about the use of each column: {
+"Column_name": ORDER_ID
+"Description": Unique identifier for each order 
+"Data_type": Integer
+} 
+{
+"Column_name": ORDER_DATETIME
+"Description": Date and time when the order was placed 
+"Data_type": Timestamp
+} 
+{
+"Column_name": CUSTOMER_ID
+"Description": Unique identifier for each customer 
+"Data_type": Integer
+} 
+{
+"Column_name": ORDER_STATUS
+"Description": Current status of the order (e.g., new, processed, shipped, delivered) 
+"Data_type": String
+} 
+{
+"Column_name": STORE_ID
+"Description": Identifier of the store where the order was placed 
+"Data_type": Integer
+}
+There is the description of the columns of the table: products. Please go through the description of each column to further understand in detail about the use of each column: {
+"Column_name": PRODUCT_ID
+"Description": Unique identifier of the product.
+"Data_type": Int64
+}
+
+{
+"Column_name": PRODUCT_NAME
+"Description": Name of the product as provided by the manufacturer.
+"Data_type": String
+}
+
+{
+"Column_name": UNIT_PRICE
+"Description": Price of the product per unit.
+"Data_type": Float64
+}
+There is the description of the columns of the table: stores. Please go through the description of each column to further understand in detail about the use of each column: {
+"Column_name": STORE_ID
+"Description": Unique ID assigned to each store
+"Data_type": Integer
+}
+
+{
+"Column_name": STORE_NAME
+"Description": Name of the store
+"Data_type": String
+}
+
+{
+"Column_name": WEB_ADDRESS
+"Description": Website address of the store
+"Data_type": String
+}
+
+{
+"Column_name": LATITUDE
+"Description": Geographical latitude of the store
+"Data_type": Float
+}
+
+{
+"Column_name": LONGITUDE
+"Description": Geographical longitude of the store
+"Data_type": Float
+}

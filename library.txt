@@ -1,0 +1,8 @@
+langchain
+llama-index
+streamlit
+llama-index-multi-modal-llms-gemini
+llama-index-vector-stores-qdrant
+llama-index-embeddings-gemini
+llama-index-llms-gemini
+
